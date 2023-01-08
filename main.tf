@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     organization = "Skills01"
     workspaces {
-      name = "Workspace-new-cli"
+      name = "terraform-jan2023-New"
     }
   }
 
