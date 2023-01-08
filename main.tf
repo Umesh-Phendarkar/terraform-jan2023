@@ -1,19 +1,3 @@
-terraform {
-  backend "remote" {
-    organization = "Skills01"
-    workspaces {
-      name = "Workspace-new-cli"
-    }
-  }
-
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "4.23.0"
-    }
-  }
-}
-
 provider "aws" {
   region = "ap-south-1"
 }
